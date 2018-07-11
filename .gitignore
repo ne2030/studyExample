@@ -1,0 +1,10 @@
+node_modules
+.idea
+webpack
+backup/
+**/*/*.jpg
+**/*/*.jpeg
+package-lock.json
+.nyc_output
+test.js
+*.pem

@@ -1,0 +1,1 @@
+import { name, setName } from ''

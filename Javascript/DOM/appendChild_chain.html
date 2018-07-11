@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>appendChild duplication</title>
+    </head>
+    <body id="root">
+        <div class="first">
+            <div class="second">
+                <div class="c">
+
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript">
+        var container = document.querySelector('#root .first .second');
+        var a = document.createElement('div');
+        var b = document.createElement('div');
+        var c = document.createElement('div');
+
+        a.classList.add('a');
+        b.classList.add('b');
+
+        a.innerText = 'hi';
+        b.innerText = 'hey';
+        c.innerText = 'ccc';
+
+        const result = container.appendChild(a);
+        console.log(result);
+        // .appendChild(b).appendChild(c);
+
+    </script>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JS 테스트</title>
+    </head>
+    <body>
+        <button class="btn" type="button" name="test1">innerHtml</button>
+        <button class="btn" type="button" name="test2">createElement</button>
+        <div id="root" class="container">
+
+        </div>
+    </body>
+    <script type="text/javascript">
+        const el = document.getElementById('root');
+        let buttons = document.getElementsByClassName('btn');
+        buttons[0].onclick = test1;
+        buttons[1].onclick = test2;
+
+        // innerHTML & innerText
+        function test1() {
+
+            let content = '';
+            for(let i = 0; i < 1000; i++) {
+                content += '<div class="item"> test div </div>';
+            }
+            let start = new Date();
+            el.innerHTML = content;
+            let end = new Date();
+            alert('test1:: ' + (end - start) / 1000);
+        }
+        // document create element
+        function test2() {
+
+            let start = new Date();
+            for(let i = 0; i < 1000; i++) {
+                let content = document.createElement('div');
+                content.innerText = 'test div';
+                el.appendChild(content);
+            }
+            let end = new Date();
+            alert('test2:: ' + (end - start) / 1000);
+        }
+    </script>
+</html>
