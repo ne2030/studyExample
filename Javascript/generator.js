@@ -8,10 +8,11 @@ const infinite = (function* () {
     }
 }());
 
-const take = iterator => (n) => {
+const take = iterable => (n) => {
     let loop = n;
+    const iterator = iterable[Symbol.iterator]();
     const results = [];
-    while (loop + 1) {
+    while (loop) {
         results.push(iterator.next().value);
         loop -= 1;
     }
@@ -21,3 +22,8 @@ const take = iterator => (n) => {
 console.log(
     take(infinite)(1000),
 );
+
+// console.log(
+//     take([1, 2, 3, 4, 5, 6])(3)
+// );
+

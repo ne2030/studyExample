@@ -1,8 +1,8 @@
-var assert = require('assert');
-var moment = require('moment');
+const assert = require('assert');
+const moment = require('moment');
 
-
-let [a,b,c,d] = [{
+const [a, b, c, d] = [
+    {
         start: moment('09:00', 'HH:mm').format('HH:mm'),
         end: moment('18:00', 'HH:mm').format('HH:mm')
     },
@@ -20,17 +20,16 @@ let [a,b,c,d] = [{
     }
 ];
 
-function compareTime(a,b){
-    if(a.start >= a.end || b.start >= b.end) {
+function compareTime(a, b) {
+    if (a.start >= a.end || b.start >= b.end) {
         return a.start >= b.end && a.end <= b.start;
-    } else {
-        return a.start <= b.start == a.end <= b.end;
     }
+    return a.start <= b.start == a.end <= b.end;
 }
 
-assert(compareTime(a,b));
-assert(compareTime(a,c));
-assert(compareTime(a,d));
-assert(compareTime(b,c));
-assert.equal(compareTime(c,d), false);
-assert.equal(compareTime(b,d), false);
+assert(compareTime(a, b));
+assert(compareTime(a, c));
+assert(compareTime(a, d));
+assert(compareTime(b, c));
+assert.equal(compareTime(c, d), false);
+assert.equal(compareTime(b, d), false);

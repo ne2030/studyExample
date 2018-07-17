@@ -1,10 +1,10 @@
-let obj = {};
+const obj = {};
 
-obj.test = function() {
+obj.test = function () {
     console.log('hi');
 };
 
-obj.method = function() {
+obj.method = function () {
     this.test();
     console.log(this);
 };

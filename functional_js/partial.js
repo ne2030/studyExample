@@ -4,7 +4,6 @@ const _ = require('partial-js');
 
 // // const log = (a) => { console.log(a); return a; };
 
-
 // // const testAsyncError = async function (a) {
 // //     throw new Error('hi');
 // //     return a * 2;
@@ -18,9 +17,7 @@ const _ = require('partial-js');
 // // //     {}, {}, {}
 // // // ];
 
-
 // // // log(_.filter(_.isEmpty)(arr));
-
 
 // // const arr = ['a', 'b', 'c', 'd', 'e'];
 
@@ -30,12 +27,10 @@ const _ = require('partial-js');
 // //     _.contains('a')(['a'])
 // // )
 
-
 // const curryr = exports.curryr = f => function (a, b) {
 //     return arguments.length === 2 ? f(a, b) : b => f(b, a);
 // };
 // const arrIncludes = curryr(_.contains);
-
 
 // // console.log(
 // //     arrIncludes(    ], 1)
@@ -60,7 +55,8 @@ const _ = require('partial-js');
 // console.log(a, b);
 
 console.log(
-    _.go(10,
+    _.go(
+        10,
         // _.pipe(
         //     a => a + 1,
         //     _.stop,

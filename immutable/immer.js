@@ -1,22 +1,25 @@
-const {
-    default: produce,
-} = require('immer');
+const { default: produce } = require('immer');
 const t = require('../testModule/testFunctions');
 
 const baseState = {
-    tests: [{
-        order: 0,
-        name: 'no change',
-    }, {
-        order: 1,
-        name: 'change all',
-    }, {
-        order: 2,
-        name: 'change part',
-    }, {
-        order: 3,
-        name: 'performance test',
-    }],
+    tests: [
+        {
+            order: 0,
+            name: 'no change'
+        },
+        {
+            order: 1,
+            name: 'change all'
+        },
+        {
+            order: 2,
+            name: 'change part'
+        },
+        {
+            order: 3,
+            name: 'performance test'
+        }
+    ]
 };
 
 describe('no change', () => {
@@ -25,7 +28,6 @@ describe('no change', () => {
         t.equal(newState, baseState);
     });
 
-
     // with return
     const newState2 = produce(baseState, (draft) => {});
     test(newState2, baseState);
@@ -33,12 +35,16 @@ describe('no change', () => {
 
 // change all
 {
-    const test = compare('change all');
+    // const test = compare('change all');
 
     const newState = produce(baseState, draft => ({
-        a: 1,
+        a: 1
     }));
 
     test(newState, baseState);
     // console.log(newState, baseState);
+}
+
+{
+    // const
 }

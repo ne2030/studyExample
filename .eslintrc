@@ -1,8 +1,6 @@
 {
     "extends": "airbnb-base",
-    "plugins": [
-        "fp"
-    ],
+    "plugins": ["fp"],
     "env": {
         "browser": false,
         "node": true,
@@ -15,9 +13,13 @@
         "L": true
     },
     "rules": {
-        "indent": ["error", 4, {
-            "SwitchCase": 1
-        }],
+        "indent": [
+            "error",
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ],
         "semi": ["error", "always"],
         "strict": 0,
         "eqeqeq": 0,
@@ -32,23 +34,33 @@
         "one-var": 0,
         "consistent-return": 0,
         "no-nested-ternary": 0,
-        "no-use-before-define": ["error", {
-            "functions": false
-        }],
+        "no-use-before-define": [
+            "error",
+            {
+                "functions": false
+            }
+        ],
         "no-shadow": 0,
         "no-inner-declarations": 0,
         "one-var-declaration-per-line": 0,
         "no-restricted-properties": 0,
-        "no-unused-vars": ["error", {
-            "args": "none"
-        }],
-        "quotes": ["error", "single", {
-            "allowTemplateLiterals": true
-        }],
+        "no-unused-vars": [
+            "error",
+            {
+                "args": "none"
+            }
+        ],
+        "quotes": [
+            "error",
+            "single",
+            {
+                "allowTemplateLiterals": true
+            }
+        ],
         "prefer-template": 0,
         "no-console": 0,
         "radix": 0,
         "func-names": 0,
-        "comma-dangle": 0,
+        "comma-dangle": 0
     }
 }
