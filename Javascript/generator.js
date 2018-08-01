@@ -19,11 +19,6 @@ const take = iterable => (n) => {
     return results;
 };
 
-console.log(
-    take(infinite)(1000),
-);
+// console.log(take(infinite)(1000));
 
-// console.log(
-//     take([1, 2, 3, 4, 5, 6])(3)
-// );
-
+console.log(take([1, 2, 3, 4, 5, 6])(3));
