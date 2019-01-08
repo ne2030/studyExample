@@ -2,7 +2,7 @@
     "extends": "airbnb-base",
     "plugins": ["fp"],
     "env": {
-        "browser": false,
+        "browser": true,
         "node": true,
         "mocha": true
     },
@@ -10,7 +10,10 @@
         "sourceType": "module"
     },
     "globals": {
-        "L": true
+        "L": true,
+        "produce": true,
+        "FP": true,
+        "El": true
     },
     "rules": {
         "indent": [

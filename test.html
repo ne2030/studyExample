@@ -1,31 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Comparison of Event Targets</title>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
 </head>
+
 <body>
-    <input type="file" id="file" />
-    <div class="box">
-
+    <div class='login-form'>
+        <input id='email' />
+        <input id='password' />
+        <button id='login-btn'> 로그인 </button>
     </div>
-    <!-- <div class="mapWrapper">
-        <div id="roadview" class="daumMap left"></div>
-    </div> -->
-</body>
-<!-- <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=de2b09cfb27ebe21a392873212e211e5"></script> -->
-<script type="text/javascript">
-    // var lat = 37.5691633;
-    // var lng = 126.9773151;
-    // var p = new daum.maps.LatLng(lat, lng);
-    // var client = new daum.maps.RoadviewClient();
-    // var view = new daum.maps.Roadview(document.getElementById('roadview'));
-    // client.getNearestPanoId(p, 50, function (panoid) {
-    //     view.setPanoId(panoid);
-    // });
 
-    
+
+</body>
+<script>
+    // document.onload = function () {
+    const loginForm = document.querySelector('.login-form')
+    const emailElement = document.querySelector('#email');
+    const passwordElement = document.querySelector('#password');
+    const loginBtn = document.getElementById('login-btn')
+
+    loginBtn.onclick = function () {
+        // element 의 value 프로퍼티를 통해서 현재 input 엘리먼트에 쓰여 있는 값을 가져온다. 그리고 이메일과 패스워드가 둘다 일치할 때만 if 문을 통과시킨다.
+        if (emailElement.value === 'ryan' && passwordElement.value === '1357') {
+            alert('로그인 되었습니다!')
+            loginForm.style.display = 'none'
+            document.body.innerText = '로그인 되었습니다'
+        } else {
+            alert('아이디나 비밀번호가 일치하지 않습니다')
+        }
+    }
+    // }
+
+
 </script>
+
 </html>

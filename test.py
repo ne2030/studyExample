@@ -1,7 +1,3 @@
-number = int(input())
-if number < 1 or number > 100:
-    print ('error')
-else:
-    if (number % 2) == 0:
-        print ('even')
-    else: print ('odd')
+number = 10 / 3
+
+print('당신의 몸무게는 %0.2f' % number)

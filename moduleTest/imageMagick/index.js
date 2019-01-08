@@ -1,4 +1,3 @@
-const gm = require('gm').subClass({ imageMagick: true });
 const fs = require('fs');
 const path = require('path');
 
@@ -21,9 +20,9 @@ const testBuf = fs.readFileSync(imgPath);
 const watermarkBuf = fs.readFileSync(waterPath);
 
 const on = gm(testBuf)
-// .draw(`image over 400,400 0,0`)
-.composite(waterPath)
-.geometry('+200+100');
+    // .draw(`image over 400,400 0,0`)
+    .composite(waterPath)
+    .geometry('+200+100');
 
 // .command('composite')
 // .out('-geometry', '+200+100') // offset
