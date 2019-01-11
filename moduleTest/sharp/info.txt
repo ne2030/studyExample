@@ -1,0 +1,758 @@
+    const metadata = await origin.metadata();
+
+                number :: 1
+                size :: 2000
+                quality :: 100
+                filename :: ./results/1--jpeg-100-2000.png
+                filesize:: 2941.888kb,
+                buffersize :: 2941.888kb
+                
+                number :: 1
+                size :: 2000
+                quality :: 90
+                filename :: ./results/1--jpeg-90-2000.png
+                filesize:: 788.328kb,
+                buffersize :: 788.328kb
+                
+                number :: 1
+                size :: 2000
+                quality :: 80
+                filename :: ./results/1--jpeg-80-2000.png
+                filesize:: 552.528kb,
+                buffersize :: 552.528kb
+                
+                number :: 1
+                size :: 2000
+                quality :: 70
+                filename :: ./results/1--jpeg-70-2000.png
+                filesize:: 444.091kb,
+                buffersize :: 444.091kb
+                
+                number :: 1
+                size :: 2000
+                quality :: 60
+                filename :: ./results/1--jpeg-60-2000.png
+                filesize:: 374.663kb,
+                buffersize :: 374.663kb
+                
+                number :: 1
+                size :: 2000
+                quality :: 40
+                filename :: ./results/1--jpeg-40-2000.png
+                filesize:: 284.644kb,
+                buffersize :: 284.644kb
+                
+                number :: 1
+                size :: 2000
+                quality :: 30
+                filename :: ./results/1--jpeg-30-2000.png
+                filesize:: 237.267kb,
+                buffersize :: 237.267kb
+                
+                number :: 1
+                size :: 2000
+                quality :: 20
+                filename :: ./results/1--jpeg-20-2000.png
+                filesize:: 179.353kb,
+                buffersize :: 179.353kb
+                
+                number :: 1
+                size :: 2000
+                quality :: 10
+                filename :: ./results/1--jpeg-10-2000.png
+                filesize:: 105.154kb,
+                buffersize :: 105.154kb
+                
+                number :: 1
+                size :: 1000
+                quality :: 100
+                filename :: ./results/1--jpeg-100-1000.png
+                filesize:: 818.393kb,
+                buffersize :: 818.393kb
+                
+                number :: 1
+                size :: 1000
+                quality :: 90
+                filename :: ./results/1--jpeg-90-1000.png
+                filesize:: 211.706kb,
+                buffersize :: 211.706kb
+                
+                number :: 1
+                size :: 1000
+                quality :: 80
+                filename :: ./results/1--jpeg-80-1000.png
+                filesize:: 147.496kb,
+                buffersize :: 147.496kb
+                
+                number :: 1
+                size :: 1000
+                quality :: 70
+                filename :: ./results/1--jpeg-70-1000.png
+                filesize:: 116.991kb,
+                buffersize :: 116.991kb
+                
+                number :: 1
+                size :: 1000
+                quality :: 60
+                filename :: ./results/1--jpeg-60-1000.png
+                filesize:: 97.892kb,
+                buffersize :: 97.892kb
+                
+                number :: 1
+                size :: 1000
+                quality :: 40
+                filename :: ./results/1--jpeg-40-1000.png
+                filesize:: 73.101kb,
+                buffersize :: 73.101kb
+                
+                number :: 1
+                size :: 1000
+                quality :: 30
+                filename :: ./results/1--jpeg-30-1000.png
+                filesize:: 60.2kb,
+                buffersize :: 60.2kb
+                
+                number :: 1
+                size :: 1000
+                quality :: 20
+                filename :: ./results/1--jpeg-20-1000.png
+                filesize:: 44.784kb,
+                buffersize :: 44.784kb
+                
+                number :: 1
+                size :: 1000
+                quality :: 10
+                filename :: ./results/1--jpeg-10-1000.png
+                filesize:: 25.383kb,
+                buffersize :: 25.383kb
+                
+                number :: 1
+                size :: 700
+                quality :: 100
+                filename :: ./results/1--jpeg-100-700.png
+                filesize:: 404.11kb,
+                buffersize :: 404.11kb
+                
+                number :: 1
+                size :: 700
+                quality :: 90
+                filename :: ./results/1--jpeg-90-700.png
+                filesize:: 101.646kb,
+                buffersize :: 101.646kb
+                
+                number :: 1
+                size :: 700
+                quality :: 80
+                filename :: ./results/1--jpeg-80-700.png
+                filesize:: 69.959kb,
+                buffersize :: 69.959kb
+                
+                number :: 1
+                size :: 700
+                quality :: 70
+                filename :: ./results/1--jpeg-70-700.png
+                filesize:: 55.062kb,
+                buffersize :: 55.062kb
+                
+                number :: 1
+                size :: 700
+                quality :: 60
+                filename :: ./results/1--jpeg-60-700.png
+                filesize:: 45.914kb,
+                buffersize :: 45.914kb
+                
+                number :: 1
+                size :: 700
+                quality :: 40
+                filename :: ./results/1--jpeg-40-700.png
+                filesize:: 34.142kb,
+                buffersize :: 34.142kb
+                
+                number :: 1
+                size :: 700
+                quality :: 30
+                filename :: ./results/1--jpeg-30-700.png
+                filesize:: 28.167kb,
+                buffersize :: 28.167kb
+                
+                number :: 1
+                size :: 700
+                quality :: 20
+                filename :: ./results/1--jpeg-20-700.png
+                filesize:: 20.899kb,
+                buffersize :: 20.899kb
+                
+                number :: 1
+                size :: 700
+                quality :: 10
+                filename :: ./results/1--jpeg-10-700.png
+                filesize:: 11.772kb,
+                buffersize :: 11.772kb
+                
+                number :: 2
+                size :: 2000
+                quality :: 100
+                filename :: ./results/2--jpeg-100-2000.png
+                filesize:: 1876.575kb,
+                buffersize :: 1876.575kb
+                
+                number :: 2
+                size :: 2000
+                quality :: 90
+                filename :: ./results/2--jpeg-90-2000.png
+                filesize:: 415.362kb,
+                buffersize :: 415.362kb
+                
+                number :: 2
+                size :: 2000
+                quality :: 80
+                filename :: ./results/2--jpeg-80-2000.png
+                filesize:: 271.551kb,
+                buffersize :: 271.551kb
+                
+                number :: 2
+                size :: 2000
+                quality :: 70
+                filename :: ./results/2--jpeg-70-2000.png
+                filesize:: 212.889kb,
+                buffersize :: 212.889kb
+                
+                number :: 2
+                size :: 2000
+                quality :: 60
+                filename :: ./results/2--jpeg-60-2000.png
+                filesize:: 177.833kb,
+                buffersize :: 177.833kb
+                
+                number :: 2
+                size :: 2000
+                quality :: 40
+                filename :: ./results/2--jpeg-40-2000.png
+                filesize:: 132.742kb,
+                buffersize :: 132.742kb
+                
+                number :: 2
+                size :: 2000
+                quality :: 30
+                filename :: ./results/2--jpeg-30-2000.png
+                filesize:: 110.123kb,
+                buffersize :: 110.123kb
+                
+                number :: 2
+                size :: 2000
+                quality :: 20
+                filename :: ./results/2--jpeg-20-2000.png
+                filesize:: 83.301kb,
+                buffersize :: 83.301kb
+                
+                number :: 2
+                size :: 2000
+                quality :: 10
+                filename :: ./results/2--jpeg-10-2000.png
+                filesize:: 50.313kb,
+                buffersize :: 50.313kb
+                
+                number :: 2
+                size :: 1000
+                quality :: 100
+                filename :: ./results/2--jpeg-100-1000.png
+                filesize:: 577.215kb,
+                buffersize :: 577.215kb
+                
+                number :: 2
+                size :: 1000
+                quality :: 90
+                filename :: ./results/2--jpeg-90-1000.png
+                filesize:: 125.655kb,
+                buffersize :: 125.655kb
+                
+                number :: 2
+                size :: 1000
+                quality :: 80
+                filename :: ./results/2--jpeg-80-1000.png
+                filesize:: 84.741kb,
+                buffersize :: 84.741kb
+                
+                number :: 2
+                size :: 1000
+                quality :: 70
+                filename :: ./results/2--jpeg-70-1000.png
+                filesize:: 67.027kb,
+                buffersize :: 67.027kb
+                
+                number :: 2
+                size :: 1000
+                quality :: 60
+                filename :: ./results/2--jpeg-60-1000.png
+                filesize:: 56.014kb,
+                buffersize :: 56.014kb
+                
+                number :: 2
+                size :: 1000
+                quality :: 40
+                filename :: ./results/2--jpeg-40-1000.png
+                filesize:: 42.104kb,
+                buffersize :: 42.104kb
+                
+                number :: 2
+                size :: 1000
+                quality :: 30
+                filename :: ./results/2--jpeg-30-1000.png
+                filesize:: 34.873kb,
+                buffersize :: 34.873kb
+                
+                number :: 2
+                size :: 1000
+                quality :: 20
+                filename :: ./results/2--jpeg-20-1000.png
+                filesize:: 26.225kb,
+                buffersize :: 26.225kb
+                
+                number :: 2
+                size :: 1000
+                quality :: 10
+                filename :: ./results/2--jpeg-10-1000.png
+                filesize:: 15.584kb,
+                buffersize :: 15.584kb
+                
+                number :: 2
+                size :: 700
+                quality :: 100
+                filename :: ./results/2--jpeg-100-700.png
+                filesize:: 300.226kb,
+                buffersize :: 300.226kb
+                
+                number :: 2
+                size :: 700
+                quality :: 90
+                filename :: ./results/2--jpeg-90-700.png
+                filesize:: 67.466kb,
+                buffersize :: 67.466kb
+                
+                number :: 2
+                size :: 700
+                quality :: 80
+                filename :: ./results/2--jpeg-80-700.png
+                filesize:: 45.928kb,
+                buffersize :: 45.928kb
+                
+                number :: 2
+                size :: 700
+                quality :: 70
+                filename :: ./results/2--jpeg-70-700.png
+                filesize:: 36.359kb,
+                buffersize :: 36.359kb
+                
+                number :: 2
+                size :: 700
+                quality :: 60
+                filename :: ./results/2--jpeg-60-700.png
+                filesize:: 30.438kb,
+                buffersize :: 30.438kb
+                
+                number :: 2
+                size :: 700
+                quality :: 40
+                filename :: ./results/2--jpeg-40-700.png
+                filesize:: 22.856kb,
+                buffersize :: 22.856kb
+                
+                number :: 2
+                size :: 700
+                quality :: 30
+                filename :: ./results/2--jpeg-30-700.png
+                filesize:: 18.97kb,
+                buffersize :: 18.97kb
+                
+                number :: 2
+                size :: 700
+                quality :: 20
+                filename :: ./results/2--jpeg-20-700.png
+                filesize:: 14.291kb,
+                buffersize :: 14.291kb
+                
+                number :: 2
+                size :: 700
+                quality :: 10
+                filename :: ./results/2--jpeg-10-700.png
+                filesize:: 8.538kb,
+                buffersize :: 8.538kb
+                
+                number :: 3
+                size :: 2000
+                quality :: 100
+                filename :: ./results/3--jpeg-100-2000.png
+                filesize:: 4320.295kb,
+                buffersize :: 4320.295kb
+                
+                number :: 3
+                size :: 2000
+                quality :: 90
+                filename :: ./results/3--jpeg-90-2000.png
+                filesize:: 1144.725kb,
+                buffersize :: 1144.725kb
+                
+                number :: 3
+                size :: 2000
+                quality :: 80
+                filename :: ./results/3--jpeg-80-2000.png
+                filesize:: 799.369kb,
+                buffersize :: 799.369kb
+                
+                number :: 3
+                size :: 2000
+                quality :: 70
+                filename :: ./results/3--jpeg-70-2000.png
+                filesize:: 632.358kb,
+                buffersize :: 632.358kb
+                
+                number :: 3
+                size :: 2000
+                quality :: 60
+                filename :: ./results/3--jpeg-60-2000.png
+                filesize:: 525.057kb,
+                buffersize :: 525.057kb
+                
+                number :: 3
+                size :: 2000
+                quality :: 40
+                filename :: ./results/3--jpeg-40-2000.png
+                filesize:: 386.703kb,
+                buffersize :: 386.703kb
+                
+                number :: 3
+                size :: 2000
+                quality :: 30
+                filename :: ./results/3--jpeg-30-2000.png
+                filesize:: 315.451kb,
+                buffersize :: 315.451kb
+                
+                number :: 3
+                size :: 2000
+                quality :: 20
+                filename :: ./results/3--jpeg-20-2000.png
+                filesize:: 230.37kb,
+                buffersize :: 230.37kb
+                
+                number :: 3
+                size :: 2000
+                quality :: 10
+                filename :: ./results/3--jpeg-10-2000.png
+                filesize:: 128.435kb,
+                buffersize :: 128.435kb
+                
+                number :: 3
+                size :: 1000
+                quality :: 100
+                filename :: ./results/3--jpeg-100-1000.png
+                filesize:: 1094.554kb,
+                buffersize :: 1094.554kb
+                
+                number :: 3
+                size :: 1000
+                quality :: 90
+                filename :: ./results/3--jpeg-90-1000.png
+                filesize:: 280.873kb,
+                buffersize :: 280.873kb
+                
+                number :: 3
+                size :: 1000
+                quality :: 80
+                filename :: ./results/3--jpeg-80-1000.png
+                filesize:: 193.775kb,
+                buffersize :: 193.775kb
+                
+                number :: 3
+                size :: 1000
+                quality :: 70
+                filename :: ./results/3--jpeg-70-1000.png
+                filesize:: 151.609kb,
+                buffersize :: 151.609kb
+                
+                number :: 3
+                size :: 1000
+                quality :: 60
+                filename :: ./results/3--jpeg-60-1000.png
+                filesize:: 124.939kb,
+                buffersize :: 124.939kb
+                
+                number :: 3
+                size :: 1000
+                quality :: 40
+                filename :: ./results/3--jpeg-40-1000.png
+                filesize:: 91.056kb,
+                buffersize :: 91.056kb
+                
+                number :: 3
+                size :: 1000
+                quality :: 30
+                filename :: ./results/3--jpeg-30-1000.png
+                filesize:: 74.033kb,
+                buffersize :: 74.033kb
+                
+                number :: 3
+                size :: 1000
+                quality :: 20
+                filename :: ./results/3--jpeg-20-1000.png
+                filesize:: 53.961kb,
+                buffersize :: 53.961kb
+                
+                number :: 3
+                size :: 1000
+                quality :: 10
+                filename :: ./results/3--jpeg-10-1000.png
+                filesize:: 29.718kb,
+                buffersize :: 29.718kb
+                
+                number :: 3
+                size :: 700
+                quality :: 100
+                filename :: ./results/3--jpeg-100-700.png
+                filesize:: 531.312kb,
+                buffersize :: 531.312kb
+                
+                number :: 3
+                size :: 700
+                quality :: 90
+                filename :: ./results/3--jpeg-90-700.png
+                filesize:: 133.776kb,
+                buffersize :: 133.776kb
+                
+                number :: 3
+                size :: 700
+                quality :: 80
+                filename :: ./results/3--jpeg-80-700.png
+                filesize:: 90.899kb,
+                buffersize :: 90.899kb
+                
+                number :: 3
+                size :: 700
+                quality :: 70
+                filename :: ./results/3--jpeg-70-700.png
+                filesize:: 70.737kb,
+                buffersize :: 70.737kb
+                
+                number :: 3
+                size :: 700
+                quality :: 60
+                filename :: ./results/3--jpeg-60-700.png
+                filesize:: 58.336kb,
+                buffersize :: 58.336kb
+                
+                number :: 3
+                size :: 700
+                quality :: 40
+                filename :: ./results/3--jpeg-40-700.png
+                filesize:: 42.627kb,
+                buffersize :: 42.627kb
+                
+                number :: 3
+                size :: 700
+                quality :: 30
+                filename :: ./results/3--jpeg-30-700.png
+                filesize:: 34.939kb,
+                buffersize :: 34.939kb
+                
+                number :: 3
+                size :: 700
+                quality :: 20
+                filename :: ./results/3--jpeg-20-700.png
+                filesize:: 25.631kb,
+                buffersize :: 25.631kb
+                
+                number :: 3
+                size :: 700
+                quality :: 10
+                filename :: ./results/3--jpeg-10-700.png
+                filesize:: 14.054kb,
+                buffersize :: 14.054kb
+                
+                number :: 4
+                size :: 2000
+                quality :: 100
+                filename :: ./results/4--png-100-2000.png
+                filesize:: 3084.555kb,
+                buffersize :: 3084.555kb
+                
+                number :: 4
+                size :: 2000
+                quality :: 90
+                filename :: ./results/4--png-90-2000.png
+                filesize:: 3084.555kb,
+                buffersize :: 3084.555kb
+                
+                number :: 4
+                size :: 2000
+                quality :: 80
+                filename :: ./results/4--png-80-2000.png
+                filesize:: 3084.555kb,
+                buffersize :: 3084.555kb
+                
+                number :: 4
+                size :: 2000
+                quality :: 70
+                filename :: ./results/4--png-70-2000.png
+                filesize:: 3084.555kb,
+                buffersize :: 3084.555kb
+                
+                number :: 4
+                size :: 2000
+                quality :: 60
+                filename :: ./results/4--png-60-2000.png
+                filesize:: 3084.555kb,
+                buffersize :: 3084.555kb
+                
+                number :: 4
+                size :: 2000
+                quality :: 40
+                filename :: ./results/4--png-40-2000.png
+                filesize:: 3084.555kb,
+                buffersize :: 3084.555kb
+                
+                number :: 4
+                size :: 2000
+                quality :: 30
+                filename :: ./results/4--png-30-2000.png
+                filesize:: 3084.555kb,
+                buffersize :: 3084.555kb
+                
+                number :: 4
+                size :: 2000
+                quality :: 20
+                filename :: ./results/4--png-20-2000.png
+                filesize:: 3084.555kb,
+                buffersize :: 3084.555kb
+                
+                number :: 4
+                size :: 2000
+                quality :: 10
+                filename :: ./results/4--png-10-2000.png
+                filesize:: 3084.555kb,
+                buffersize :: 3084.555kb
+                
+                number :: 4
+                size :: 1000
+                quality :: 100
+                filename :: ./results/4--png-100-1000.png
+                filesize:: 783.297kb,
+                buffersize :: 783.297kb
+                
+                number :: 4
+                size :: 1000
+                quality :: 90
+                filename :: ./results/4--png-90-1000.png
+                filesize:: 783.297kb,
+                buffersize :: 783.297kb
+                
+                number :: 4
+                size :: 1000
+                quality :: 80
+                filename :: ./results/4--png-80-1000.png
+                filesize:: 783.297kb,
+                buffersize :: 783.297kb
+                
+                number :: 4
+                size :: 1000
+                quality :: 70
+                filename :: ./results/4--png-70-1000.png
+                filesize:: 783.297kb,
+                buffersize :: 783.297kb
+                
+                number :: 4
+                size :: 1000
+                quality :: 60
+                filename :: ./results/4--png-60-1000.png
+                filesize:: 783.297kb,
+                buffersize :: 783.297kb
+                
+                number :: 4
+                size :: 1000
+                quality :: 40
+                filename :: ./results/4--png-40-1000.png
+                filesize:: 783.297kb,
+                buffersize :: 783.297kb
+                
+                number :: 4
+                size :: 1000
+                quality :: 30
+                filename :: ./results/4--png-30-1000.png
+                filesize:: 783.297kb,
+                buffersize :: 783.297kb
+                
+                number :: 4
+                size :: 1000
+                quality :: 20
+                filename :: ./results/4--png-20-1000.png
+                filesize:: 783.297kb,
+                buffersize :: 783.297kb
+                
+                number :: 4
+                size :: 1000
+                quality :: 10
+                filename :: ./results/4--png-10-1000.png
+                filesize:: 783.297kb,
+                buffersize :: 783.297kb
+                
+                number :: 4
+                size :: 700
+                quality :: 100
+                filename :: ./results/4--png-100-700.png
+                filesize:: 391.711kb,
+                buffersize :: 391.711kb
+                
+                number :: 4
+                size :: 700
+                quality :: 90
+                filename :: ./results/4--png-90-700.png
+                filesize:: 391.711kb,
+                buffersize :: 391.711kb
+                
+                number :: 4
+                size :: 700
+                quality :: 80
+                filename :: ./results/4--png-80-700.png
+                filesize:: 391.711kb,
+                buffersize :: 391.711kb
+                
+                number :: 4
+                size :: 700
+                quality :: 70
+                filename :: ./results/4--png-70-700.png
+                filesize:: 391.711kb,
+                buffersize :: 391.711kb
+                
+                number :: 4
+                size :: 700
+                quality :: 60
+                filename :: ./results/4--png-60-700.png
+                filesize:: 391.711kb,
+                buffersize :: 391.711kb
+                
+                number :: 4
+                size :: 700
+                quality :: 40
+                filename :: ./results/4--png-40-700.png
+                filesize:: 391.711kb,
+                buffersize :: 391.711kb
+                
+                number :: 4
+                size :: 700
+                quality :: 30
+                filename :: ./results/4--png-30-700.png
+                filesize:: 391.711kb,
+                buffersize :: 391.711kb
+                
+                number :: 4
+                size :: 700
+                quality :: 20
+                filename :: ./results/4--png-20-700.png
+                filesize:: 391.711kb,
+                buffersize :: 391.711kb
+                
+                number :: 4
+                size :: 700
+                quality :: 10
+                filename :: ./results/4--png-10-700.png
+                filesize:: 391.711kb,
+                buffersize :: 391.711kb
+                

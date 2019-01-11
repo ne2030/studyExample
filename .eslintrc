@@ -1,6 +1,8 @@
 {
     "extends": "airbnb-base",
-    "plugins": ["fp"],
+    "plugins": [
+        "fp"
+    ],
     "env": {
         "browser": true,
         "node": true,
@@ -23,7 +25,10 @@
                 "SwitchCase": 1
             }
         ],
-        "semi": ["error", "always"],
+        "semi": [
+            "error",
+            "always"
+        ],
         "strict": 0,
         "eqeqeq": 0,
         "no-multi-assign": 0,
@@ -64,6 +69,7 @@
         "no-console": 0,
         "radix": 0,
         "func-names": 0,
-        "comma-dangle": 0
+        "comma-dangle": 0,
+        "no-loop-func": 0
     }
 }

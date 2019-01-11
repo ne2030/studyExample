@@ -4,6 +4,7 @@ webpack
 backup/
 **/*/*.jpg
 **/*/*.jpeg
+**/*/*.png
 package-lock.json
 .nyc_output
 test.js
