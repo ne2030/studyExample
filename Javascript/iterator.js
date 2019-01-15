@@ -1,5 +1,5 @@
-var someArray = [1, 5, 7];
-var someArrayEntries = someArray.entries();
+const someArray = [1, 5, 7];
+const someArrayEntries = someArray.entries();
 
 someArrayEntries.toString();           // "[object Array Iterator]"
 someArrayEntries === someArrayEntries[Symbol.iterator]();    // true
@@ -9,9 +9,9 @@ someArrayEntries === someArrayEntries[Symbol.iterator]();    // true
 
 const someString = 'hi';
 
-'function' == typeof someString[Symbol.iterator];
+typeof someString[Symbol.iterator] == 'function';
 
-var iterator = someString[Symbol.iterator]();
+const iterator = someString[Symbol.iterator]();
 
 iterator + ''; // "[object String Iterator]"
 
@@ -79,3 +79,40 @@ function argsTest() { // 최신환경에서는 arguments 같은 유사배열도 
 
 argsTest(1, 2, 3);
 
+
+// iterator 의 length 구하기 (isEmpty 함수 구현)
+{
+    function* gen() {
+        return 3;
+    }
+
+    const nGen = gen();
+    const nIter = nGen[Symbol.iterator]();
+    // console.log(
+    //     nIter.next(),
+    //     nIter.next()
+    // );
+    // console.log(
+    //     nGen.next(),
+    //     nGen.next(),
+    //     nGen.next(),
+    //     nGen.next()
+    // );
+
+    const emptyIter = [][Symbol.iterator]();
+
+    // console.log(
+    //     emptyIter.next()
+    // );
+}
+
+
+// iterable for of
+
+{
+    const arr = [1, 2, 3, 4, 5];
+    const iter = arr[Symbol.iterator]();
+    for (const x of iter) {
+        console.log(x);
+    }
+}

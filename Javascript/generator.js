@@ -27,7 +27,7 @@ const take = iterable => (n) => {
 {
     const gen = function* () {
         return [1, 2, 3];
-    }
+    };
 
     const iter = gen();
 
@@ -45,24 +45,24 @@ const take = iterable => (n) => {
 {
     const gen1 = function* () {
         yield [1, 2, 3, 4, 5];
-    }
+    };
 
     const gen2 = function* () {
         yield* [1, 2, 3, 4, 5];
-    }
+    };
 
     const iter1 = gen1();
     const iter2 = gen2();
 
-    console.log(iter1.next())
-    console.log(iter1.next())
-    console.log(iter1.next())
-    console.log(iter1.next())
-    console.log(iter1.next())
+    console.log(iter1.next());
+    console.log(iter1.next());
+    console.log(iter1.next());
+    console.log(iter1.next());
+    console.log(iter1.next());
 
-    console.log(iter2.next())
-    console.log(iter2.next())
-    console.log(iter2.next())
-    console.log(iter2.next())
-    console.log(iter2.next())
+    console.log(iter2.next());
+    console.log(iter2.next());
+    console.log(iter2.next());
+    console.log(iter2.next());
+    console.log(iter2.next());
 }
